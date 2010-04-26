@@ -9,7 +9,7 @@ This Template is responsible for creating a table of domain objects.
 
 	<f:for each="{galleries}" as="gallery">
 		<blockquote><f:link.action action="show" arguments="{gallery : gallery}">{gallery.title}</f:link.action>
-		<p>{gallery.description}</p></blockquote>
+		<p><f:format.nl2br>{gallery.description}</f:format.nl2br></p></blockquote>
 	</f:for>
 
 </f:section>

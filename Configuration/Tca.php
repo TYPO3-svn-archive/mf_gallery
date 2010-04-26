@@ -89,8 +89,7 @@ $TCA['tx_mfgallery_domain_model_gallery'] = array(
 			'exclude' => 0,
 			'label'   => 'LLL:EXT:mf_gallery/Resources/Private/Language/locallang_db.xml:tx_mfgallery_domain_model_gallery.description',
 			'config'  => array(
-				'type' => 'input',
-				'size' => 30,
+				'type' => 'text',
 				'eval' => 'trim'
 			)
 		),
