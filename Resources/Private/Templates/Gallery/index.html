@@ -1,0 +1,15 @@
+<f:layout name="default" />
+
+This Template is responsible for creating a table of domain objects.
+
+<f:section name="main">
+<h2>Photoalben</h2>
+
+<f:flashMessages />
+
+	<f:for each="{galleries}" as="gallery">
+		<blockquote><f:link.action action="show" arguments="{gallery : gallery}">{gallery.title}</f:link.action>
+		<p>{gallery.description}</p></blockquote>
+	</f:for>
+
+</f:section>

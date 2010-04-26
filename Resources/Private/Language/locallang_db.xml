@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'mf_gallery'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_mfgallery_domain_model_gallery">Gallery</label>
+			<label index="tx_mfgallery_domain_model_gallery.src">Src</label>
+			<label index="tx_mfgallery_domain_model_gallery.title">Title</label>
+			<label index="tx_mfgallery_domain_model_gallery.width">Width</label>
+			<label index="tx_mfgallery_domain_model_gallery.description">Description</label>
+		</languageKey>
+	</data>
+</T3locallang>

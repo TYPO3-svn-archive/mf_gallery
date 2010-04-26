@@ -1,0 +1,25 @@
+<f:layout name="default" />
+
+This template displays a NEW form for the current domain object.
+
+<f:section name="main">
+<h1>New Gallery</h1>
+
+<f:flashMessages />
+
+<f:render partial="formErrors" />
+
+<f:form method="post" action="create" name="newGallery" object="{newGallery}">
+	<label for="title"><f:translate key="tx_mfgallery_domain_model_gallery.src" /></label><br />
+	<f:form.textbox property="src" /><br />
+	<label for="title"><f:translate key="tx_mfgallery_domain_model_gallery.title" /></label><br />
+	<f:form.textbox property="title" /><br />
+	<label for="title"><f:translate key="tx_mfgallery_domain_model_gallery.width" /></label><br />
+	<f:form.textbox property="width" /><br />
+	<label for="title"><f:translate key="tx_mfgallery_domain_model_gallery.description" /></label><br />
+	<f:form.textbox property="description" /><br />
+	<label for="title"><f:translate key="tx_mfgallery_domain_model_gallery._localization_parent_uid" /></label><br />
+	<f:form.textbox property="_localizationParentUid" /><br />
+	<f:form.submit value="Create new" />
+</f:form>
+</f:section>
