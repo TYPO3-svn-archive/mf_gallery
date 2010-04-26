@@ -62,9 +62,12 @@ $TCA['tx_mfgallery_domain_model_gallery'] = array(
 			'exclude' => 0,
 			'label'   => 'LLL:EXT:mf_gallery/Resources/Private/Language/locallang_db.xml:tx_mfgallery_domain_model_gallery.src',
 			'config'  => array(
-				'type' => 'input',
-				'size' => 30,
-				'eval' => 'trim,required'
+				"type" => "group",
+				"internal_type" => "folder",
+				"uploadfolder" => "",
+				"size" => 1,	
+				"minitems" => 1,
+				"maxitems" => 1
 			)
 		),
 		'title' => array(
