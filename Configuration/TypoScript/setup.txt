@@ -20,3 +20,11 @@ plugin.tx_mfgallery._CSS_DEFAULT_STYLE (
 		vertical-align:top;
 	}
 )
+
+page.includeJS.file15001 = fileadmin/scripts/js/multiBox/js/mootools.js
+page.includeJS.file15003 = fileadmin/scripts/js/multiBox/js/overlay.js
+page.includeJS.file15004 = fileadmin/scripts/js/multiBox/js/Assets.js
+page.includeJS.file15005 = fileadmin/scripts/js/multiBox/js/multibox.js
+page.includeJS.file15006 = fileadmin/scripts/js/load.js
+
+page.includeCSS.file15002 = fileadmin/scripts/js/multiBox/css/multibox.css
