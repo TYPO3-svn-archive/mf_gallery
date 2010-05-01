@@ -1,16 +1,13 @@
-<f:layout name="default" />
-
-This Template is responsible for creating a single view for a domain object
-
+<f:layout name="default" /> This Template is responsible for creating a single view for a domain object
 <f:section name="main">
-<h2>Photoalbum: {gallery.title}</h2>
-
-<f:flashMessages />
-
-	<div class="thumbnails">
-	<f:for each="{photos}" as="photo">		
-	<a href="{photo}" class="thumb" class="thumb"><img src={photo} width="{gallery.width}" alt="" /></a>
-	</f:for>
-	</div>
-	
+    <h2>Fotogalerie: {gallery.title}</h2>
+    <a href="javascript:history.back()">Zur&uuml;ck zur &Uuml;bersicht</a>
+    <br/>
+    <br/>
+    <f:flashMessages/>
+    <div class="thumbnails">
+        <f:for each="{photos}" as="photo">
+            <a href="{photo}" class="thumb" class="thumb"><img src={photo} width="{gallery.width}" alt="" /></a>
+        </f:for>
+    </div>
 </f:section>
